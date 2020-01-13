@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "noImplicitAny": false,
+    "target": "es2017",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2017",
+      "dom",
+      "esnext.asynciterable"
+    ],
+  },
+  "compileOnSave": true,
+  "include": [
+    "src", 
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "paths": {
+    "*": ["node_modules/*", "src/types/*"]
+  }
+
+}
