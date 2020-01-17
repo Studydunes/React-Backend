@@ -8,6 +8,7 @@ import EventResolver from './resolvers/EventResolver';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
+
 const MONGO_URL = `mongodb+srv://admin:sk9tHC4RaKHnDYC6@cluster0-mvguz.mongodb.net/studydunes-react-native?retryWrites=true&w=majority`
 
 async function bootstrap() {
