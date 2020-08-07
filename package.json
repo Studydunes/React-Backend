@@ -19,7 +19,7 @@
     "apollo-datasource": "^0.6.4",
     "apollo-server-express": "^2.9.15",
     "await-to-js": "^2.1.1",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "express": "^4.17.1",
     "mongodb": "^3.4.1",
     "mongoose": "^5.8.5",
